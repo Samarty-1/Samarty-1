@@ -19,6 +19,17 @@ SEC 10-K text, end to end, in **Python, SQL, Rust and TypeScript**:
     says so.
 - A pre-registered return test.
 
+#### Products for small businesses
+
+Working software with a demo you can run, a web app, Docker and CI:
+
+| Product | What it does |
+|---|---|
+| [fairshift](https://github.com/Samarty-1/fairshift) | Staff rostering for cafés and shops with OR-Tools CP-SAT. The rota is legal (Singapore Employment Act defaults), fair and costed in under a second; every gap has a reason; and a sick call is re-planned with minimal changes |
+| [payout-recon](https://github.com/Samarty-1/payout-recon) | Reconciles orders, Stripe, GrabFood and foodpanda payouts, and the bank. Finds missing payouts, commission above contract and over-refunds (8/8 planted problems on every synthetic test month), then writes a balanced Xero journal |
+| [invoice-intake](https://github.com/Samarty-1/invoice-intake) | Supplier invoices to bookable data on a **local LLM**. Blocks wrong GST, bad totals, duplicates and changed bank details. 100% field accuracy on held-out layouts where hand-written rules scored 0% (synthetic) |
+| [countbone](https://github.com/Samarty-1/countbone) | Stock counting from phone video, through to the ERP adjustment and a signed supplier claim |
+
 #### Data engineering & SQL
 
 | Project | What it shows |
@@ -40,11 +51,10 @@ SEC 10-K text, end to end, in **Python, SQL, Rust and TypeScript**:
 
 #### Other
 
-[countbone](https://github.com/Samarty-1/countbone): stock counting from phone
-video · [bot-detection](https://github.com/Samarty-1/bot-detection): adversarial
+[bot-detection](https://github.com/Samarty-1/bot-detection): adversarial
 bot detection on synthetic ticketing traffic ·
 [nexus-chess](https://github.com/Samarty-1/nexus-chess): in-browser chess
 with Stockfish and P2P play
 
 **Tools:** Python, SQL (DuckDB, dbt), Rust (PyO3), C++20, TypeScript, PyTorch
-(QLoRA, PEFT), pandas, NumPy/SciPy, Streamlit, GitHub Actions
+(QLoRA, PEFT), OR-Tools, FastAPI, Docker, pandas, NumPy/SciPy, Streamlit, GitHub Actions
