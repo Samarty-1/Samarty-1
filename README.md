@@ -37,7 +37,7 @@ Working software with a demo you can run, a web app, Docker and CI:
 | [citibike-warehouse](https://github.com/Samarty-1/citibike-warehouse) | Star schema over 4.3M bike trips. An SCD2 station dimension built by entity resolution through a 2021 ID migration lets growth be measured like-for-like: **+31%, not the naive 2.6×** |
 | [nyc-taxi-dbt](https://github.com/Samarty-1/nyc-taxi-dbt) | dbt + DuckDB over 30M taxi records, with schema drift, voided-charge pairs and double-counted surcharges. Includes a placebo-checked diff-in-diff on whether congestion pricing sped up traffic |
 | [retail-sql-analytics](https://github.com/Samarty-1/retail-sql-analytics) | Cohorts, RFM and basket lift in plain SQL on 1M transactions. Reconciling raw to model caught **£680k** of double-counted or reversed sales |
-| [point-in-time-warehouse](https://github.com/Samarty-1/point-in-time-warehouse) | Bitemporal market-data warehouse that measures how much restated fundamentals flatter a backtest, and the look-ahead traps in measuring it |
+| [point-in-time-warehouse](https://github.com/Samarty-1/point-in-time-warehouse) | Bitemporal market-data warehouse: restated fundamentals lift a strategy's Sharpe from **0.17 to 0.27**. My first published figure (0.33 → 0.91) was mostly look-ahead in the measurement, found and corrected in a later audit |
 
 #### Quant research
 
