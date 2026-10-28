@@ -1,9 +1,22 @@
-### Hi, I'm Leigh
+### Hi, I'm Leighton
 
 Data science student focused on **data engineering** and **quantitative
 research**. I like work where the hard part is making the numbers
 trustworthy: finding the duplicated rows, the restated fundamentals and the
 overfit backtest before they reach a conclusion.
+
+I'm a Diploma in Data Science student at Ngee Ann Polytechnic, looking for a
+**12-month Data Analyst / Data Engineering internship**.
+
+#### Data engineering & SQL
+
+| Project | What it shows |
+|---|---|
+| [citibike-warehouse](https://github.com/Samarty-1/citibike-warehouse) | Star schema over 4.3M bike trips. An SCD2 station dimension built by entity resolution through a 2021 ID migration lets growth be measured like-for-like: **+31%, not the naive 2.6×** |
+| [nyc-taxi-dbt](https://github.com/Samarty-1/nyc-taxi-dbt) | dbt + DuckDB over 30M taxi records, with schema drift, voided-charge pairs and double-counted surcharges. Includes a placebo-checked diff-in-diff on whether congestion pricing sped up traffic |
+| [retail-sql-analytics](https://github.com/Samarty-1/retail-sql-analytics) | Cohorts, RFM and basket lift in plain SQL on 1M transactions. Reconciling raw to model caught **£680k** of double-counted or reversed sales |
+| [point-in-time-warehouse](https://github.com/Samarty-1/point-in-time-warehouse) | Bitemporal market-data warehouse: restated fundamentals lift a strategy's Sharpe from **0.17 to 0.27**. My first published figure (0.33 → 0.91) was mostly look-ahead in the measurement, found and corrected in a later audit |
+| [market-signal-dashboard](https://github.com/Samarty-1/market-signal-dashboard) | Scheduled daily pipeline: live ingestion, a data-quality gate, a versioned model registry and a dashboard, refreshed by a GitHub Action. A long-short Sharpe of 1.73 fell to 0.71 once survivorship bias was removed |
 
 #### Featured: [filing-signals](https://github.com/Samarty-1/filing-signals) · [live explorer](https://samarty-1.github.io/filing-signals/)
 
@@ -30,15 +43,6 @@ Working software with a demo you can run, a web app, Docker and CI:
 | [invoice-intake](https://github.com/Samarty-1/invoice-intake) | Supplier invoices to bookable data on a **local LLM**. Blocks wrong GST, bad totals, duplicates and changed bank details. 100% field accuracy on held-out layouts where hand-written rules scored 0% (synthetic) |
 | [countbone](https://github.com/Samarty-1/countbone) | Stock counting from phone video, through to the ERP adjustment and a signed supplier claim |
 
-#### Data engineering & SQL
-
-| Project | What it shows |
-|---|---|
-| [citibike-warehouse](https://github.com/Samarty-1/citibike-warehouse) | Star schema over 4.3M bike trips. An SCD2 station dimension built by entity resolution through a 2021 ID migration lets growth be measured like-for-like: **+31%, not the naive 2.6×** |
-| [nyc-taxi-dbt](https://github.com/Samarty-1/nyc-taxi-dbt) | dbt + DuckDB over 30M taxi records, with schema drift, voided-charge pairs and double-counted surcharges. Includes a placebo-checked diff-in-diff on whether congestion pricing sped up traffic |
-| [retail-sql-analytics](https://github.com/Samarty-1/retail-sql-analytics) | Cohorts, RFM and basket lift in plain SQL on 1M transactions. Reconciling raw to model caught **£680k** of double-counted or reversed sales |
-| [point-in-time-warehouse](https://github.com/Samarty-1/point-in-time-warehouse) | Bitemporal market-data warehouse: restated fundamentals lift a strategy's Sharpe from **0.17 to 0.27**. My first published figure (0.33 → 0.91) was mostly look-ahead in the measurement, found and corrected in a later audit |
-
 #### Quant research
 
 | Project | What it shows |
@@ -46,15 +50,12 @@ Working software with a demo you can run, a web app, Docker and CI:
 | [backtest-overfit-audit](https://github.com/Samarty-1/backtest-overfit-audit) | Deflated Sharpe, PBO and multiple-testing haircuts, pointed at my own strategies (they fail) |
 | [cotangent](https://github.com/Samarty-1/cotangent) | Header-only C++20 reverse-mode AD: every Monte Carlo Greek for roughly the cost of one valuation |
 | [black-scholes-plus](https://github.com/Samarty-1/black-scholes-plus) | Tested option-pricing library: robust implied vol, American trees, Heston, SVI, with docs and a dashboard |
-| [market-signal-dashboard](https://github.com/Samarty-1/market-signal-dashboard) | Live data, walk-forward model, honest out-of-sample backtest and a daily retraining Action |
 | [sreit-analytics](https://github.com/Samarty-1/sreit-analytics) | Singapore REIT rate sensitivity, and a valuation signal that fails out of sample |
 
 #### Other
 
 [bot-detection](https://github.com/Samarty-1/bot-detection): adversarial
-bot detection on synthetic ticketing traffic ·
-[nexus-chess](https://github.com/Samarty-1/nexus-chess): in-browser chess
-with Stockfish and P2P play
+bot detection on synthetic ticketing traffic
 
 **Tools:** Python, SQL (DuckDB, dbt), Rust (PyO3), C++20, TypeScript, PyTorch
 (QLoRA, PEFT), OR-Tools, FastAPI, Docker, pandas, NumPy/SciPy, Streamlit, GitHub Actions
